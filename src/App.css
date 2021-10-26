@@ -1,0 +1,59 @@
+html{
+  font-size: 62.5%;
+}
+:root{
+  --primary: #058BCE;
+}
+
+.main{
+  --primary: #058BCE;
+}
+.gradient1{
+  --primary: #e84040;
+}
+
+.gradient2{
+  --primary: #1D4079;
+}
+
+.gradient3{
+  --primary: #2E7D32;
+}
+
+.gradient4{
+  --primary: #1abc9c;
+}
+
+.gradient5{
+  --primary: #607D8B;
+}
+
+.gradient6{
+  --primary: #f39c12;
+}
+
+.gradient7{
+  --primary: #512DA8;
+}
+
+.gradient8{
+  --primary: #737373;
+}
+
+@media screen and (max-width: 998px) {
+  html{
+    font-size: 55%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html{
+    font-size: 45%;
+  }
+}
+
+/* @media screen and (max-width: 450px) {
+  html{
+      font-size: 35%;
+    }
+} */

@@ -1,0 +1,108 @@
+.container{
+    height: 90vh;
+    width: 100%;
+    background-color: var(--primary);
+    /* padding-top: 4rem; */
+}
+.heading{
+    font-size: 4rem;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    padding: 3rem 0;
+}
+.para{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+.card_para{
+    width: 65%;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.788);
+    text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.image{
+        height: 12rem;
+        border-radius: 50%;
+        width: 12rem;
+}
+.carouse{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slide{
+    width: 80%;
+    margin: 0 auto;
+}
+.card{
+    height: 30vh;
+}
+.cont{
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 1rem;
+}
+.sub_card{
+    background-color: white;
+    margin: 0 1.5rem;
+}
+.sub_heading{
+    text-align: right;
+    font-weight: 500;
+}
+
+@media (max-width: 998px) {
+    .slide{
+        width: 70%;
+    }
+    .cont{
+        height: 38vh;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 2.2rem 0 2.2rem 2.2rem;
+    }
+    .card{
+        height: 42vh;
+    }
+    .container{
+        padding-top: 5rem;
+    }
+    .card_para{
+        /* letter-spacing: 0.1rem; */
+        font-weight: 300;
+        line-height: 2.1rem;
+        font-size: 1.6rem;
+        width: 100%;
+    }
+    .sub_card{
+        padding: 1rem;
+    }
+    .sub_heading{
+        text-align: right;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 768px) {
+    .container{
+        height: 105vh;
+    }
+    .slide{
+        margin-top: 20rem;
+    }
+    .card{
+        height: 35vh;
+    }
+    .cont{
+        height: 29vh;
+    }
+}

@@ -1,0 +1,36 @@
+.container{
+    height: 105vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.content{
+    height: 15rem;
+    width: 74%;
+    margin-top: 7rem;
+}
+.heading{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    color: var(--primary);
+    font-weight: bolder;
+}
+.para{
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 2.6rem;
+    font-weight: 400;
+}
+.carousel{
+    height: calc(100% - 15vh);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

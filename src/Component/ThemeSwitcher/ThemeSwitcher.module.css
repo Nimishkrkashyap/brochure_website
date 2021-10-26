@@ -1,0 +1,97 @@
+.in_container{
+    height: 18.5rem;
+    width: 25rem;
+    position: fixed;
+    right: -25rem;
+    top: 40%;
+    background-color: white;
+    transition: all 0.5s;
+}
+.out_container{
+    height: 18.5rem;
+    width: 25rem;
+    position: fixed;
+    right: 0;
+    top: 40%;
+    background-color: white;
+    transition: all 0.5s;
+}
+.main{
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.setting{
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: -3.5rem;
+}
+.heading{
+    font-size: 1.4rem;
+    padding-left: 1rem;
+    font-weight: 700;
+}
+.theme_container{
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+.box{
+    padding: 0.5rem;
+}
+.gradient1{
+    background-color: #e84040;
+    height: 5rem;
+    width: 5rem;
+    box-shadow: inset 0 0 20px rgb(0 0 0 / 44%);
+}
+.gradient2{
+    background-color: #1D4079;
+    height: 5rem;
+    width: 5rem;
+    box-shadow: inset 0 0 20px rgb(0 0 0 / 44%);
+}
+.gradient3{
+    background-color: #2E7D32;
+    height: 5rem;
+    width: 5rem;
+    box-shadow: inset 0 0 20px rgb(0 0 0 / 44%);
+}
+.gradient4{
+    background-color: #1abc9c;
+    height: 5rem;
+    width: 5rem;
+    box-shadow: inset 0 0 20px rgb(0 0 0 / 44%);
+}
+.gradient5{
+    background-color: #607D8B;
+    height: 5rem;
+    width: 5rem;
+    box-shadow: inset 0 0 20px rgb(0 0 0 / 44%);
+}
+.gradient6{
+    background-color: #f39c12;
+    height: 5rem;
+    width: 5rem;
+    box-shadow: inset 0 0 20px rgb(0 0 0 / 44%);
+}
+.gradient7{
+    background-color: #512DA8;
+    height: 5rem;
+    width: 5rem;
+    box-shadow: inset 0 0 20px rgb(0 0 0 / 44%);
+}
+.gradient8{
+    background-color: #737373;
+    height: 5rem;
+    width: 5rem;
+    box-shadow: inset 0 0 20px rgb(0 0 0 / 44%);
+}

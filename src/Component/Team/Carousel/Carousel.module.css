@@ -1,0 +1,14 @@
+.container{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    /* background-color: khaki; */
+}
+.slider{
+    /* background-color: #d18d8d; */
+    height: 78vh;
+    width: 80%;
+    overflow: hidden;
+}

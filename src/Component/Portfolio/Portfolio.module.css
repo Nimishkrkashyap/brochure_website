@@ -1,0 +1,41 @@
+.container{
+    height: 130vh;
+    width: 100%;
+    background-color: #ECECEC;
+}
+.content{
+    padding-top: 4rem;
+    height: 50vh;
+}
+.heading{
+    font-size: 4rem;
+    color: var(--primary);
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2.5rem 0;
+}
+.para{
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.589);
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 4rem auto;
+}
+.btn{
+    background-color: var(--primary);
+    text-transform: uppercase;  
+    padding: 1.5rem 2.5rem;
+    border: none;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    margin: 0.35rem;
+    cursor: pointer ;
+}

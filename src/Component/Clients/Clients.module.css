@@ -1,0 +1,17 @@
+.container{
+    background-color: #ebebeb;
+    min-height: 21rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slide{
+    /* background-color: aqua; */
+    max-width: 80%;
+    margin: 0 auto;
+}
+.image{
+    height: 6rem;
+    width: 13rem;
+    margin: 0 auto;
+}
