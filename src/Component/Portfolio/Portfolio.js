@@ -6,7 +6,7 @@ import PortfolioData from "./PortfolioData";
 function Portfolio() {
 
   const [item, setItem] = useState(PortfolioData.filter((elem) =>{
-    return elem.category == "All";
+    return elem.category === "All";
   }));
 
   const filterItem = (categElem) => {
